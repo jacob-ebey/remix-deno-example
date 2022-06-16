@@ -1,3 +1,3 @@
-import { serveDev } from "https://deno.land/x/remix_deno@v0.0.10/mod.ts";
+import { serveDev } from "remix-deno";
 
 await serveDev((mod) => import(mod));

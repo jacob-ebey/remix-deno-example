@@ -1,4 +1,4 @@
-import { serveProd } from "https://deno.land/x/remix_deno@v0.0.10/mod.ts";
+import { serveProd } from "remix-deno";
 import * as remixGen from "./remix.gen.ts";
 
 await serveProd(remixGen);
